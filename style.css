@@ -1,0 +1,32 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.bg-image{
+  height: 100vh;
+  width: 100%;
+  background: url("bg.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.container{
+  padding: 30px 20px;
+}
+h1{
+  font-size: 50px;
+}
+p{
+  color: gray;
+  text-align: justify;
+}
+
+@media (max-width:500px){
+  .container{
+    padding: 10px;
+  }
+  .bg-image{
+    height: 30vh;
+    background-size: cover;
+  }
+}
