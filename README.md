@@ -12,7 +12,7 @@ https://ozgeonline.github.io/
     <tr>
       <td>01</td>
       <td><a href="#">Test1</a></td>
-      <td><a href="https://github.com/">Test Demo</a></td>
+      <td><a href="[https://github.com/](https://ozgeonline.github.io/test-1/test-1.html)">Test Demo</a></td>
     </tr>
   </tbody>
 </table>
