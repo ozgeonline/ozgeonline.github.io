@@ -1,9 +1,21 @@
 https://ozgeonline.github.io/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Demo Test</title>
+    <style>
+      .head{
+        color:red;
+      }
+    </style>
+  </head>
+
+  <body>
 <table>
   <thead>
     <tr>
       <th>#</th>
-      <th style="color:red">Project</th>
+      <th class="head">Project</th>
       <th>Live Demo</th>
     </tr>
   </thead>
@@ -15,3 +27,7 @@ https://ozgeonline.github.io/
     </tr>
   </tbody>
 </table>
+    
+  </body>
+</html>
+
