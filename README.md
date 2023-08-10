@@ -12,7 +12,7 @@ https://ozgeonline.github.io/
     <tr>
       <td>01</td>
       <td><a href="#">Rotating Navigator</a></td>
-      <td><a href="#">Live Demo</a></td>
+      <td><a href="https://ozgeonline.github.io/Rotating_Navigation/index.html">Live Demo</a></td>
     </tr>
   </tbody>
 </table>
