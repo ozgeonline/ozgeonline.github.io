@@ -3,7 +3,7 @@ https://ozgeonline.github.io/
   <thead>
     <tr>
       <th>#</th>
-      <th>Project</th>
+      <th style="color:red">Project</th>
       <th>Live Demo</th>
     </tr>
   </thead>
