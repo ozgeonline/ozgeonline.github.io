@@ -11,8 +11,8 @@ https://ozgeonline.github.io/
   <tbody>
     <tr>
       <td>01</td>
-      <td><a href="#">Test1</a></td>
-      <td><a href="https://ozgeonline.github.io/test-1/test-1.html">Test Demo</a></td>
+      <td><a href="#">Rotating Navigator</a></td>
+      <td><a href="#">Live Demo</a></td>
     </tr>
   </tbody>
 </table>
