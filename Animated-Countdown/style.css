@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: #F9EBFF;
+}
+h4 {
+  font-size: 24px;
+  margin: 5px;
+  text-transform: uppercase;
+  color: #111;
+}
+h1{
+  font-size: 36px;
+  color: #0516FC;
+}
+.counter{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.counter.hide{
+  transform: translate(-50%,-50%) scale(0);
+  animation: hide .2s ease-out;
+}
+@keyframes hide{
+  0% { transform: translate(-50%, -50%) scale(1); }
+  100% { transform: translate(-50%, -50%) scale(0); }
+}
+.final{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  text-align: center;
+}
+.final.show{
+  transform: translate(-50%, -50%) scale(1);
+  animation: show 0.2s ease-out;
+}
+@keyframes show {
+  0% { transform: translate(-50%, -50%) scale(0); }
+  30% { transform: translate(-50%, -50%) scale(1.4); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
+.nums {
+  color: #0516FC;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 50px;
+}
+.nums span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(120deg);
+  transform-origin: bottom center;
+}
+.nums span.in {
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: goIn 0.5s ease-in-out;
+}
+.nums span.out {
+  animation: goOut 0.5s ease-in-out;
+}
+@keyframes goIn {
+  0%   { transform: translate(-50%, -50%) rotate(120deg); }
+  30%  { transform: translate(-50%, -50%) rotate(-20deg); }
+  60%  { transform: translate(-50%, -50%) rotate(10deg); }
+  100% { transform: translate(-50%, -50%) rotate(0deg); }
+}
+@keyframes goOut {
+  0%   { transform: translate(-50%, -50%) rotate(0deg); }
+  60%  { transform: translate(-50%, -50%) rotate(20deg); }
+  100% { transform: translate(-50%, -50%) rotate(-120deg); }
+}
+#replay{
+  background-color: #00CA96;
+  border-radius: 3px;
+  border: none;
+  color: #fee;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#replay span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+  font-size: 1.7em;
+}
+#replay:hover{
+  filter: brightness(1.2);
+}
+#replay span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+#replay:hover span{
+  padding-right: 25px;
+}
+#replay:hover span:after{
+  opacity: 1;
+  right: 0;
+}
+.footer{
+  position: relative;
+  bottom: -470px;
+}
+.footer svg path{
+	animation:pathAnim 6s; 
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+svg path:nth-child(2){
+	animation-delay: 1s
+}
+svg path:nth-child(3){
+	animation-delay: 3s
+}
+svg path:nth-child(4){
+	animation-play-state: paused;
+}
+
+@keyframes pathAnim{
+	0%  { d: path("M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500"); }
+	25% { d: path("M0,100	C220,100,440,292,660,292 C880,292,1100,100,1320,100	L1320 500 L0 500"); }
+	50% { d: path("M0,192	C220,290,440,290,660,192 C880,100,1100,100,1320,192	L1320 500 L0 500"); }
+	75% { d: path("M0,292	C220,292,440,100,660,100 C880,100,1100,292,1320,292	L1320 500 L0 500"); }
+	100%{ d: path("M0,192	C220,100,440,100,660,192 C880,290,1100,290,1320,192	L1320 500 L0 500"); }
+}
