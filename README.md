@@ -1,4 +1,4 @@
-https://ozgeonline.github.io/
+
 
 <table>
   <thead>
@@ -11,13 +11,9 @@ https://ozgeonline.github.io/
   <tbody>
     <tr>
       <td>01</td>
-      <td><a href="#">Rotating Navigator</a></td>
-      <td><a href="https://ozgeonline.github.io/Rotating_Navigation/index.html">Live Demo</a></td>
+      <td><a href="#">vanilla JS </a></td>
+      <td><a href="https://ozgeonline.github.io/">Live Demo</a></td>
     </tr>
-    <tr>
-      <td>02</td>
-      <td><a href="#">Blackjack</a></td>
-      <td><a href="https://ozgeonline.github.io/Blackjack_Game/index.html">Live Demo</a></td>
-    </tr>
+
   </tbody>
 </table>
