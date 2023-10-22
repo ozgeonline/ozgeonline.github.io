@@ -17,7 +17,6 @@
     url: '3d-boxes-background/index.html',
     description: '3D Boxes',
     img : './images/magic.png'
-
   },
   {
     id: '4',
@@ -48,5 +47,65 @@
     url: 'doubleClick-radioBtn/index.html',
     description: 'Double Click Heart',
     img : './images/car.png'
+  },
+  {
+    id: '9',
+    url: 'profile_statistics/index.html',
+    description: 'Profile Statistics',
+    img : './images/profile_statistics.png'
+  },
+  {
+    id: '10',
+    url: 'random_color/index.html',
+    description: 'Random Color Generator',
+    img : './images/randomcolor.png'
+  },
+  {
+    id: '11',
+    url: 'bg_video/index.html',
+    description: 'Background Video',
+    img : './images/bg-video.png'
+  },
+  {
+    id: '12',
+    url: 'tabs-section/index.html',
+    description: 'Tabs Section',
+    img : './images/tabs-section.png'
+  },
+  {
+    id: '13',
+    url: 'q-a-section/index.html',
+    description: 'Q & A Section',
+    img : './images/q-a.png'
+  },
+  {
+    id: '14',
+    url: 'month-calendar/index.html',
+    description: 'Calendar',
+    img : './images/month.png'
+  },
+  {
+    id: '15',
+    url: 'analog-clock/index.html',
+    description: 'Analog Clock',
+    img : './images/analog-clock.png'
+  },
+  {
+    id: '16',
+    url: 'movie-pop/index.html',
+    description: 'Video Trailer Pop-up',
+    img : './images/movie.png'
+  },
+  {
+    id: '17',
+    url: 'loading/index.html',
+    description: 'Loading Bar',
+    img : './images/loading.png'
+  },
+  {
+    id: '18',
+    url: 'step-bar/index.html',
+    description: 'Step Progress Bar',
+    img : './images/step.png'
   }
 ]

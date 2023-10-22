@@ -1,0 +1,42 @@
+body{
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  background:#333;
+  height: 100vh;
+  background: linear-gradient(200deg, #162cfd,#fdd,#333,#162cfd, #14282c,#162cfd);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 16s ease infinite;
+  animation: AnimationName 16s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 48%}
+  50%{background-position:100% 53%}
+  100%{background-position:0% 48%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 48%}
+  50%{background-position:100% 53%}
+  100%{background-position:0% 48%}
+}
+h1{
+  text-align: center;
+  letter-spacing: 4px;
+  color: #fee;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-container{
+  background-color: #333;
+  color: #fee;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
