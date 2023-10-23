@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #5805a7;
+  color: #bffad9;
+}
+input{
+  text-align: center;
+}
+input:focus{
+  outline-color: #5805a7;
+}

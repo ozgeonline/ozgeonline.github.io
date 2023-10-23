@@ -107,5 +107,35 @@
     url: 'step-bar/index.html',
     description: 'Step Progress Bar',
     img : './images/step.png'
+  },
+  {
+    id: '19',
+    url: 'random-image/index.html',
+    description: 'Random Image Generator',
+    img : './images/random-image.png'
+  },
+  {
+    id: '20',
+    url: 'img-search/index.html',
+    description: 'Image Search App',
+    img : './images/img-search.png'
+  },
+  {
+    id: '21',
+    url: 'blurred-bg-popup/index.html',
+    description: 'Blurred Background Pop-up',
+    img : './images/blurred.png'
+  },
+  {
+    id: '22',
+    url: 'text-effect/index.html',
+    description: 'Auto Text Effect Animation',
+    img : './images/text.png'
+  },
+  {
+    id: '23',
+    url: 'double-landing-page/index.html',
+    description: 'Double-Landing-Page',
+    img : './images/double.png'
   }
 ]

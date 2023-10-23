@@ -1,0 +1,68 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+}
+.split{
+  width:50%;
+  height: 100%;
+  top: 0;
+  overflow: hidden;
+}
+.split.left{
+  position: absolute;
+  left: 0;
+  background-color: black;
+  background-image: url("https://www.notebookcheck-tr.com/uploads/tx_nbc2/AppleiPhone14Pro__1__01.JPG");
+  background-size: cover;
+}
+.split.right{
+  position: absolute;
+  right: 0;
+  background-color: black;
+  background-image: url("https://www.donanimhaber.com/cache-v2/?t=20230417154444&width=-1&text=0&path=https://www.donanimhaber.com/images/images/haber/160083/samsung-s23-tanitildi-iste-galaxy-s23-plus-ozellikleri-ve-fiyati160083_6.jpg");
+  background-size: cover;
+  filter: contrast(150%);
+}
+h1{
+  font-size: 100px;
+  color: #FBEAFF;
+  /* backdrop-filter: brightness(.3); */
+  letter-spacing: 4px;
+}
+.btn{
+  padding:.8rem 2rem;
+  background-color: #333;
+  border: 3px solid #FBEAFF;
+  border-radius: 7px 0 7px 0;
+  color: #FBEAFF;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 1s;
+  white-space: nowrap;
+}
+.btn:hover{
+  background-color: #FBEAFF;
+  border:3px solid #333;
+  color: #2F4858;
+}
+.active-left .left{
+  width: 75%;
+}
+.active-left .right{
+  width: 25%;
+}
+.active-right .right{
+  width: 75%;
+}
+.active-right .left{
+  width: 25%;
+}
+.left , .right{
+  transition: width 1.5s ease-in-out;
+}

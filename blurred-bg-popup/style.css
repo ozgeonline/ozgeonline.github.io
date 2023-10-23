@@ -1,0 +1,100 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1572666341285-c8cb9790ca50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  transition: filter .5s;
+}
+h1{
+  font-size: 60px;
+  color: #FFF3FA;
+  text-align: center;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+.btn{
+  padding: 10px 20px;
+  width: 200px;
+  cursor: pointer;
+  background-color: #D9DAFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.btn:hover{
+  filter: brightness(1.1);
+}
+.active.container{
+  filter: blur(5px) brightness(.7);
+}
+.popup-container{
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 30%;
+  width: 400px;
+  height: 200px;
+  background-color: #D9DAFF;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: url("https://images.unsplash.com/photo-1574192324001-ee41e18ed679?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+  opacity: .9;
+  transition: all .7s;
+}
+h4{
+  font-size: 25px;
+  margin: 15px 0;
+  color: #7289F4;
+}
+label{
+  color: #7289F4;
+}
+.popup-btn{
+  padding: 5px;
+  cursor: pointer;
+  background-color: #D9DAFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #454555;
+}
+.popup-btn:hover{
+  filter: brightness(1.1);
+}
+.input{
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+.input:focus{
+  outline-color: #7289F4;
+}
+.close-icon{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #454555;
+  cursor: pointer;
+}
+.close-icon:hover{
+  color: #FF0404;
+}
+.active.popup-container{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+}
