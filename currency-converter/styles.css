@@ -1,0 +1,38 @@
+body{
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-image: -webkit-linear-gradient(65deg, #0582ca 50%, #E4E9FD 50%);
+}
+.container{
+  margin-top: 25vh;
+  max-width: 40rem;
+  /* css-glass */
+  background: rgba(255, 255, 255, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.heading{
+  letter-spacing: .3rem;
+  margin-left: 2rem;
+  color: #0582ca;
+}
+.form-select{
+  max-width: 20em;
+}
+option{
+  color: #7209b7;
+}
+option:checked{
+  color: #dd1c1a;
+}
+.currency-container input{
+  opacity: .9;
+}
+.currency-container input:focus{
+  box-shadow: 0 0 5px #0582ca;
+  border: none;
+}

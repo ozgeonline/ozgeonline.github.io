@@ -137,5 +137,65 @@
     url: 'double-landing-page/index.html',
     description: 'Double-Landing-Page',
     img : './images/double.png'
+  },
+  {
+    id: '24',
+    url: 'emoji-rating/index.html',
+    description: 'Emoji Rating',
+    img : './images/emoji-rating.png'
+  },
+  {
+    id: '25',
+    url: 'new-year/index.html',
+    description: 'New Year Countdown',
+    img : './images/new-year.png'
+  },
+  {
+    id: '26',
+    url: 'password-generator/index.html',
+    description: 'Random Password Generator',
+    img : './images/password-generator.png'
+  },
+  {
+    id: '27',
+    url: 'rotating-img/index.html',
+    description: 'Rotating Image Gallery',
+    img : './images/rotating-img.png'
+  },
+  {
+    id: '28',
+    url: 'dijital-clock/index.html',
+    description: 'Dijital Clock',
+    img : './images/dijital-clock.png'
+  },
+  {
+    id: '29',
+    url: 'currency-converter/index.html',
+    description: 'Currency Converter',
+    img : './images/currency-converter.png'
+  },
+  {
+    id: '30',
+    url: 'quote-generator/index.html',
+    description: 'Random Quote Generator',
+    img : './images/quote-generator.png'
+  },
+  // {
+  //   id: '31',
+  //   url: 'anime/index.html',
+  //   description: 'Random Anime Generator',
+  //   img : './images/anime.png'
+  // }
+  //{
+    //   id: '32',
+    //   url: 'basic-calculator/index.html',
+    //   description: 'Basic Calculator',
+    //   img : './images/calculator.png'
+    // }
+  {
+    id: '33',
+    url: 'dictionary/index.html',
+    description: 'English Dictionary',
+    img : './images/dictionary.png'
   }
 ]
